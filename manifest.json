@@ -1,0 +1,9 @@
+{
+  "apiVersion": 1,
+  "id": "transcribe-server-stt",
+  "name": "transcribe-server STT",
+  "version": "0.1.0",
+  "minAppVersion": "0.6.1",
+  "description": "Streaming speech-to-text dictation backend for a self-hosted transcribe-server (wss://host/v1/audio/stream). Enable it, then pick it under Settings → Dictation.",
+  "main": "main.js"
+}

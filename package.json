@@ -1,0 +1,16 @@
+{
+  "name": "@learnharness/transcribe-server-stt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "transcribe-server streaming WebSocket STT backend plugin for LearnHarness native dictation.",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "install:local": "npm run build && node scripts/install-plugin-local.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
