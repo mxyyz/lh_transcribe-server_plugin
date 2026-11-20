@@ -20,7 +20,7 @@ test('activate registers the transcribe-server backend on the host context', () 
   assert.equal(registered.length, 1);
   assert.equal(registered[0].id, BACKEND_ID);
   assert.equal(registered[0].id, 'transcribe-server');
-  assert.equal(typeof registered[0].label, 'string');
+  assert.equal(registered[0].label, 'transcribe-server');
   assert.equal(registered[0].connect, connect);
 });
 

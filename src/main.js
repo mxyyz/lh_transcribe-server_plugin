@@ -69,7 +69,7 @@ export function connect({ url, model, language }) {
 export function activate(context) {
   context.registerSttBackend({
     id: BACKEND_ID,
-    label: 'transcribe-server (self-hosted STT)',
+    label: 'transcribe-server',
     description: 'Streaming transcription over WebSocket from a self-hosted transcribe-server endpoint (wss://host/v1/audio/stream).',
     connect,
   });
